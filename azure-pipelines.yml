@@ -10,4 +10,4 @@ stages:
       steps:
       - bash: ls -lrta  $(System.DefaultWorkingDirectory)
       - bash: echo $(System.DefaultWorkingDirectory)
-      - bash: echo $(Date)
+      - bash: echo $(Time)
